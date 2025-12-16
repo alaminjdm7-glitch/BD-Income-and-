@@ -1,33 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Task Pro Max</title>
-    <script src="https://telegram.org/js/telegram-web-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
-        
-        :root { --primary: #4e54c8; --secondary: #8f94fb; --bg: #f4f7f6; --text: #2d3436; --card: #ffffff; }
-        body { font-family: 'Outfit', sans-serif; background: var(--bg); color: var(--text); margin: 0; padding-bottom: 90px; -webkit-tap-highlight-color: transparent; }
+transparent; }
 
-        #ban-screen { display: none; position: fixed; top:0; left:0; width:100%; height:100%; background: #fff; z-index: 9999; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
-
-        /* HEADER & STATS */
-        .header-bg { background: linear-gradient(135deg, var(--primary), var(--secondary)); padding: 30px 20px 80px; border-radius: 0 0 30px 30px; color: white; position: relative; box-shadow: 0 10px 30px rgba(78, 84, 200, 0.2); }
-        .user-avatar { width: 55px; height: 55px; background: rgba(255,255,255,0.25); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 24px; border: 2px solid rgba(255,255,255,0.6); margin-right: 15px; }
-        .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; padding: 0 20px; margin-top: -60px; position: relative; z-index: 20; }
-        .stat-card { background: var(--card); padding: 15px; border-radius: 16px; box-shadow: 0 8px 20px rgba(0,0,0,0.06); text-align: center; }
-        .stat-val { font-size: 18px; font-weight: 800; color: var(--primary); display: block; }
-        .stat-label { font-size: 11px; color: #636e72; font-weight: 500; text-transform: uppercase; }
-
-        /* TASKS */
-        .section-title { padding: 0 20px; margin-top: 25px; margin-bottom: 10px; font-weight: 700; color: #2d3436; font-size: 15px; display: flex; align-items: center; }
-        .task-card { background: var(--card); margin: 0 20px 12px; padding: 16px; border-radius: 16px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); display: flex; justify-content: space-between; align-items: center; border: 1px solid #f1f2f6; position: relative; overflow: hidden; }
+        # hidden; }
         .task-card::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: var(--primary); }
         .btn-start { background: linear-gradient(135deg, var(--primary), var(--secondary)); color: white; border: none; padding: 8px 18px; border-radius: 25px; font-weight: 600; font-size: 11px; cursor: pointer; }
 
